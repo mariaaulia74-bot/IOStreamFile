@@ -8,7 +8,7 @@ public class MainTugas {
         String namaBerkas = "barang.txt";
 
         // 1. Menyimpan dan menampilkan daftar kategori dalam Array String tetap
-        String[] kategori = {"Elektronik", "Pakaian", "Makanan & Minuman", "Alat Tulis"};
+        String[] kategori = {"Elektronik", "Pakaian", "Makanan & Minuman"};
         System.out.println("=== DAFTAR KATEGORI TOKO ===");
         for (int i = 0; i < kategori.length; i++) {
             System.out.println((i + 1) + ". " + kategori[i]);
@@ -21,7 +21,7 @@ public class MainTugas {
         gudangSatu.tambahBarang(new Barang("Mouse Wireless", 150000, 15));
         gudangSatu.tambahBarang(new Barang("Kemeja Polos", 125000, 20));
         gudangSatu.tambahBarang(new Barang("Kopi Susu", 15000, 50));
-        gudangSatu.tambahBarang(new Barang("Buku Tulis A5", 6000, 100));
+        gudangSatu.tambahBarang(new Barang("Nasi Goreng", 6000, 100));
 
         // 3. Menyimpan data gudang pertama ke berkas teks
         System.out.println("\n[Sistem] Menyimpan data awal ke berkas...");
